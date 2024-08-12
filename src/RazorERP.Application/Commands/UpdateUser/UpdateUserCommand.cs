@@ -8,7 +8,6 @@ namespace RazorERP.Application.Commands.UpdateUser
     public class UpdateUserCommand : IRequest<int>
     {
         public string Name { get; set; }
-        public string Password { get; set; }
         public Role Role { get; set; }
 
         public class UpdateUserCommandHandler : IRequestHandler<UpdateUserCommand, int>
