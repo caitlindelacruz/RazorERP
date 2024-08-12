@@ -37,6 +37,10 @@ email: user@company.com pw: User123. role: User
 
 email: guest@company.com pw: Guest123. role: User
 
+To use endpoints:
+1. Login with email and password
+2. The login endpoint will return a token, use this token to authorize (upper right corner)
+   Note: Add bearer before the token. Value should be: Bearer <token>
 
 
 
