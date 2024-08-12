@@ -30,8 +30,11 @@ Endpoints:
 Database:
 Run the script.sql located in the root folder
 Database already has seeded users:
+
 email: admin@company.com pw: Admin123. role: Admin
+
 email: user@company.com pw: User123. role: User
+
 email: guest@company.com pw: Guest123. role: User
 
 
